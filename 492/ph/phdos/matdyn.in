@@ -1,0 +1,12 @@
+&INPUT
+asr      = 'crystal'
+flfrc    = 'c_chain.fc'
+flfrq    = 'c_chain.freq'
+flvec    = 'c_chain.modes'
+loto_2d  = .true.
+fldos    = 'c_chain.dos'
+dos      = .true.
+nk1      = 1
+nk2      = 1
+nk3      = 48
+/

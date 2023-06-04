@@ -1,0 +1,11 @@
+&INPUT
+asr            = 'crystal'
+flfrc          = 'c_chain.fc'
+flfrq          = 'c_chain.freq'
+flvec          = 'c_chain.modes'
+loto_2d        = .true.
+q_in_band_form = .true.
+/
+2
+gG 40
+Z 0

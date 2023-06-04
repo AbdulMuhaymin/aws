@@ -1,0 +1,41 @@
+&CONTROL
+  calculation = 'scf'
+  outdir = './outdir/'
+  prefix = 'b2n2'
+  pseudo_dir = '../'
+  etot_conv_thr = 1d-06
+  disk_io='none'
+/
+&SYSTEM
+  ecutwfc = 50
+  ibrav = 0
+  nat = 8
+  ntyp = 2
+  nbnd=25
+  input_dft='hse'
+  nqx1=1, nqx2=1, nqx3=1
+  x_gamma_extrapolation=.TRUE.
+  exxdiv_treatment='gygi-baldereschi'
+/
+&ELECTRONS
+  conv_thr =   1d-08
+/
+K_POINTS (automatic)
+ 7 7 1 0 0 0
+
+CELL_PARAMETERS (bohr)
+   8.426106137   0.151274793   0.000000000
+   0.153378826   9.846088182   0.000000000
+   0.000000000   0.000000000  10.897261370
+ATOMIC_SPECIES
+ B      10.811     B.pbe-n-kjpaw_psl.1.0.0.UPF
+ N      14.0067    N.pbe-n-kjpaw_psl.1.0.0.UPF
+ATOMIC_POSITIONS (crystal)
+B             0.1887785362        0.3844293387        0.0000000000
+B             0.1887609079        0.8844669763        0.0000000000
+B             0.8134045509        0.3646486129        0.0000000000
+B             0.8134141653        0.8646450600        0.0000000000
+N             0.3444405684        0.1436928446        0.0000000000
+N             0.3444703194        0.6436369863        0.0000000000
+N             0.6577469077        0.1054825510        0.0000000000
+N             0.6577367793        0.6054895278        0.0000000000

@@ -1,0 +1,13 @@
+&INPUTPP
+outdir    = './outdir/'
+prefix    = '118_c_rho'
+plot_num  = 0
+/
+&PLOT
+iflag         = 3
+output_format = 6
+fileout       = 'c_rho.cube'
+nx            = 10
+ny            = 10
+nz            = 64
+/

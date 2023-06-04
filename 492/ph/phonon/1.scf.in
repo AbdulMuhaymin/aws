@@ -1,0 +1,26 @@
+&control
+ calculation='scf'
+ prefix='1c_ph'
+ pseudo_dir='/home/ubuntu/test/492/'
+ outdir='./outdir/'
+/
+&system    
+ ibrav 	= 6
+ a     	= 10
+ b     	= 10
+ c     	= 1.2847
+ nat   	= 1
+ ntyp  	= 1
+ ecutwfc = 80
+ occupations = 'smearing'
+ smearing = 'mp'
+ degauss=0.01
+/
+&electrons
+/
+ATOMIC_SPECIES
+ C      12.01100     C.pbe-n-kjpaw_psl.1.0.0.UPF
+ATOMIC_POSITIONS (angstrom)
+ C 0.00 0.00 0.00 
+K_POINTS automatic
+ 1 1 51 1 1 1

@@ -1,0 +1,5 @@
+&BANDS
+    prefix='soc'
+    outdir='./outdir/'
+    filband='6_c.bands_pp.dat'
+/

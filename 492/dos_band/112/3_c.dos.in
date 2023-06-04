@@ -1,0 +1,8 @@
+&DOS
+    prefix='1c_112'
+    outdir='./outdir'
+    fildos='3_c.dos.dat'
+    Emin=-21
+    Emax=6
+    DeltaE=0.01
+/

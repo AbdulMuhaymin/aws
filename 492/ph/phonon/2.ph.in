@@ -1,0 +1,11 @@
+C chain phonon calc.
+&INPUTPH
+outdir = './outdir/'
+prefix = '1c_ph'
+tr2_ph = 1d-12
+ldisp  = .true.
+nq1    = 1
+nq2    = 1
+nq3    = 4
+fildyn = 'c_chain.dyn'
+/

@@ -1,0 +1,6 @@
+&BANDS
+    prefix='b2n2'
+    outdir='./outdir/'
+    filband='b2n2.bands.pp.dat'
+    lsym=.true.
+/

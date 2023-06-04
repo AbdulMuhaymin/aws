@@ -1,0 +1,8 @@
+&PROJWFC
+    prefix='1c_112'
+    outdir='./outdir'
+    filpdos='4_c'
+    Emin=-21
+    Emax=6
+    DeltaE=0.01
+/

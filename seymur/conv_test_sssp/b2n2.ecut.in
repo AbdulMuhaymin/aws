@@ -1,0 +1,30 @@
+&CONTROL
+  calculation = 'scf'
+  outdir = './outdir/'
+  prefix = 'b2n2'
+  pseudo_dir = '../'
+/
+&SYSTEM
+  ecutwfc = 120
+  ibrav = 8
+  a = 4.57
+  b = 2.50
+  c = 10
+  nat = 4
+  ntyp = 2
+/
+&ELECTRONS
+  conv_thr =   1d-08
+/
+
+ATOMIC_SPECIES
+ B      10.811     B_pbe_v1.01.uspp.F.UPF
+ N      14.0067    N.oncvpsp.upf
+
+ATOMIC_POSITIONS angstrom
+B   0.8500000000       1.8706148721       0.0000000000 
+B   3.7300000000       1.8706148721       0.0000000000 
+N   1.5700000000       0.6250000000       0.0000000000 
+N   3.0100000000       0.6250000000       0.0000000000 
+K_POINTS automatic
+5 5 1 0 0 0

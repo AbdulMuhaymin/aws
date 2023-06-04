@@ -1,0 +1,5 @@
+&INPUT
+fildyn = 'c_chain.dyn'
+zasr   = 'crystal'
+flfrc  = 'c_chain.fc'
+/

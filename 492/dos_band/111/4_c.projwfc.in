@@ -1,0 +1,8 @@
+&PROJWFC
+    prefix='1c_dos'
+    outdir='./outdir'
+    filpdos='4_c.pdos.dat'
+    Emin=-21
+    Emax=20
+    DeltaE=0.01
+/

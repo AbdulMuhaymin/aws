@@ -1,0 +1,32 @@
+&control
+ calculation= 'scf'
+ prefix= '118_c_rho'
+ pseudo_dir='/home/ubuntu/aws/492/'
+ outdir='./outdir/'
+/
+&system
+ ibrav 	= 6
+ a     	= 10
+ c     	= 10.2552362
+ nat   	= 8
+ ntyp  	= 1
+ ecutwfc = 45
+ occupations = "smearing"
+ smearing    = "mp"
+ degauss=0.01
+/
+&electrons
+/
+ATOMIC_SPECIES
+ C      12.01100     C.pbe-n-kjpaw_psl.1.0.0.UPF
+ATOMIC_POSITIONS (angstrom)
+ C 5.00 0.00 0.00 0 0 0
+ C 5.00 0.00 1.2818134732 0 0 1
+ C 5.00 0.00 2.5638090517 0 0 1
+ C 5.00 0.00 3.8458046302 0 0 1
+ C 5.00 0.00 5.1277091551 0 0 1
+ C 5.00 0.00 6.40961368 0 0 1
+ C 5.00 0.00 7.691518205 0 0 1
+ C 5.00 0.00 8.97342273 0 0 1
+K_POINTS automatic
+ 1 1 9 1 1 1

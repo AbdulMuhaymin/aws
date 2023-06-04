@@ -1,0 +1,42 @@
+&CONTROL
+  calculation = 'vc-relax'
+  outdir = './outdir/'
+  prefix = 'b2n2'
+  pseudo_dir = '../'
+  etot_conv_thr = 1d-04
+  tprnfor=.FALSE.
+/
+&SYSTEM
+  ecutwfc = 80
+  ibrav = 0
+  nat = 8
+  ntyp = 2
+/
+&ELECTRONS
+  conv_thr =   1d-05
+/
+K_POINTS (automatic)
+ 5 5 1 0 0 0
+&IONS
+/
+&CELL
+ press=0.1
+ cell_dofree='2Dxy'
+/
+
+CELL_PARAMETERS (bohr)
+   8.426106137   0.151274793   0.000000000
+   0.153378826   9.846088182   0.000000000
+   0.000000000   0.000000000  18.897261370
+ATOMIC_SPECIES
+  B   10.81100   B_pbe_v1.01.uspp.F.UPF
+  N   14.00670   N.oncvpsp.upf
+ATOMIC_POSITIONS (crystal)
+B             0.1887785362        0.3844293387        0.0000000000
+B             0.1887609079        0.8844669763        0.0000000000
+B             0.8134045509        0.3646486129        0.0000000000
+B             0.8134141653        0.8646450600        0.0000000000
+N             0.3444405684        0.1436928446        0.0000000000
+N             0.3444703194        0.6436369863        0.0000000000
+N             0.6577469077        0.1054825510        0.0000000000
+N             0.6577367793        0.6054895278        0.0000000000

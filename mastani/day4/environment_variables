@@ -1,0 +1,6 @@
+
+####################################################################
+# include the needed environment variables 
+PW_ROOT=/home/ubuntu/opt/q-e/bin
+PSEUDO_DIR=/home/ubuntu/aws/mastani/day4/pseudo
+TMP_DIR=tmp
