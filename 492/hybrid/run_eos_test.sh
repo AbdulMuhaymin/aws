@@ -22,15 +22,19 @@ cat > 1c.clat.in << EOF
  occupations = 'smearing'
  smearing = 'mf'
  degauss = 0.01
+ input_dft='hse'
+ nqx1=1, nqx2=1, nqx3=2
+ x_gamma_extrapolation=.TRUE.
+ exxdiv_treatment='gygi-baldereschi'
 /
 &electrons
 /
 ATOMIC_SPECIES
- C      12.01100     C.rel-pbe-n-kjpaw_psl.1.0.0.UPF
+ C      12.01100     C.pbe-n-kjpaw_psl.1.0.0.UPF
 ATOMIC_POSITIONS (angstrom)
  C 0.00 0.00 0.00 
 K_POINTS automatic
- 1 1 41 0 0 0
+ 1 1 40 0 0 0
 EOF
 
 pw.x -in 1c.clat.in > 1c.clat.out
