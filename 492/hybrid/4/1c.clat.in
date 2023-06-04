@@ -1,7 +1,7 @@
 &control
  calculation='vc-relax'
  prefix='1c_clat'
- pseudo_dir='../'
+ pseudo_dir='../../'
  outdir='./outdir/'
 /
 &system    
